@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  height: 100vh;
+}
+
+header {
+  background-image: url(./assets/big\ header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 498px;
+}
+
+main {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 40px;
+}
+
+main #section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #section1 .content {
+  width: 60%;
+}
+
+main #section1 .workshop-title h1 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main #section1 .workshop-title p {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 151.023%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main #section1 .workshop-host h5 {
+  color: #5040a1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main #section1 .workshop-host p {
+  color: #c1c1c1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+main #section1 .workshop-host {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main #section1 .workshop-host img {
+  width: 40px;
+}
+
+main #section1 .details {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+}
+
+main #section1 .workshop-details h2 {
+  color: #5040a1;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.023%;
+}
+
+main #section1 .details-column p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.023%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main #section1 .card-container {
+  width: 40%;
+  padding: 20px;
+}
+
+main #section1 .card {
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  position: sticky;
+  transform: translateY(5%);
+  top: 50px;
+}
+
+main #section1 .card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+main #section1 .card-top h5 {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main #section1 .card-top p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+main #section1 .bi-plus-circle-fill {
+  font-size: 40px;
+  color: #5040a1;
+  padding-right: 30px;
+}
+
+main #section1 .card-bottom p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 156.523%;
+  padding: 20px;
+}
+
+main #section1 .read-more h5 {
+  display: inline-block;
+  color: #5040a1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.023%;
+  padding: 20px;
+}
+
+main #section1 .bi-chevron-down {
+  color: #5040a1;
+}
+
+main #section2 p {
+  width: 60%;
+}

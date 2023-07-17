@@ -8,16 +8,34 @@
 
 body {
   font-family: "Inter";
-  min-height: 100vh;
+  height: 100vh;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+i:hover {
+  cursor: pointer;
+}
 /* FIRST PAGE */
+#page1 header .bi-bookmark-fill {
+  position: absolute;
+  color: white;
+  background-color: #5040a1;
+  border-radius: 100%;
+  font-size: 20px;
+  padding: 15px;
+  bottom: -30px;
+  right: 80px;
+}
 
 #page1 header {
   background-image: url(./assets/big\ header.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
   height: 498px;
 }
 
@@ -86,7 +104,6 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 151.023%; /* 33.225px */
-  padding-bottom: 20px;
 }
 
 #page1 main .bot-part {
@@ -116,7 +133,6 @@ body {
 }
 
 #page1 main .right-side .card {
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -130,6 +146,10 @@ body {
   border-radius: 25px;
   padding: 20px;
   width: 400px;
+  position: fixed;
+  top: 80px;
+  right: 80px;
+  z-index: 5;
 }
 
 #page1 main .card-top {
@@ -192,6 +212,7 @@ body {
   left: 0;
   bottom: 0;
   background-color: white;
+  z-index: 5;
 }
 
 #page1 footer .left-side {
@@ -275,8 +296,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  padding-top: 60px;
   padding-left: 80px;
+  width: 60%;
 }
 
 #page2 .about h5 {
@@ -413,9 +434,10 @@ body {
   border-style: none;
   width: 108px;
   height: 49px;
+  margin-bottom: 150px;
 }
 
-#page2 .right-side {
+/* #page2 .right-side {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -426,7 +448,6 @@ body {
 }
 
 #page2 .right-side .card {
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -435,7 +456,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 156.523%; /* 25.044px */
+  line-height: 156.523%; 
   background-color: white;
   border-radius: 25px;
   padding: 20px;
@@ -482,7 +503,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 151.023%; /* 21.143px */
+  line-height: 151.023%;
   padding-top: 15px;
 }
 
@@ -490,11 +511,12 @@ body {
   color: #5040a1;
   font-size: 40px;
   padding-left: 64px;
-}
+} */
 
 /* MOBILE */
 
-/* @media (max-width: 800px) {
-  #page1 header {
+@media (max-width: 800px) {
+  #page1 .card {
+    position: static;
   }
-} */
+}
